@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .donation-stats, .residents-stats, .donors-info {
+            margin-bottom: 30px;
+        }
+
+        p {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+    </style>
+    <title>Donation Information</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Donation Information</h1>
+
+        <div class="donation-stats">
+            <h2>Total Number of Donations</h2>
+            <p id="total-donations">50</p>
+        </div>
+
+        <div class="residents-stats">
+            <h2>Number of Residents Who Received Donations</h2>
+            <p id="residents-received">30</p>
+        </div>
+
+        <div class="donors-info">
+            <h2>Donors Information</h2>
+            <ul id="donors-list">
+                <li>Donor 1: John Doe</li>
+                <li>Donor 2: Jane Smith</li>
+                <!-- Add more donor information as needed -->
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>

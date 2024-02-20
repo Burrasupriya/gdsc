@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: -100px;
+    background-color: rgb(155, 193, 243);
+    font-size: larger;
+    font-style: oblique;
+    color: rgb(3, 2, 67);
+  }
+
+.one {
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+  
+.two {
+    margin-right: 20px;
+}
+  
+.three {
+    flex-grow: 1;
+}
+  
+.four {
+    font-size: 50px; 
+}
+  
+.four {
+    display: flex;
+    gap: 10px;
+}
+  
+button {
+    padding: 10px;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    font-size: large;
+    font-style: oblique;
+
+}
+  
+.breakfast {
+    background-color: #eaf4a6; 
+}
+  
+.lunch {
+    background-color: #c5ed54; 
+}
+  
+.snacks {
+    background-color: #a4ce0e; 
+}
+  
+.dinner {
+    background-color: #a4ce0e; 
+
+}
+.one{
+  left: 500px;
+}

@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column; 
+    margin: 20px;
+    padding: 5px;
+    width:800px; 
+}
+
+.cardItem {
+    display: flex;
+    border: 2px solid #000;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.cardItem > img {
+    margin-right: 10px; 
+}

@@ -1,0 +1,30 @@
+/* .nav{
+  display:flex;
+  background-color: aqua;
+  margin: 0 1rem;
+  
+}
+button{
+  
+  background-color: green;
+} */
+
+
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; 
+  background-color: #fff; 
+  
+}
+
+.nav {
+  background-color: aquamarine;
+
+}
+button{
+  
+  background-color: green;
+}

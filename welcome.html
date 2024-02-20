@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .welcome-container {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .organization-info {
+      flex-grow: 1;
+    }
+
+    .organization-info h1 {
+      margin-bottom: 10px;
+    }
+
+    .options {
+      display: flex;
+      gap: 10px;
+    }
+
+    .view-donation {
+      margin-top: 20px;
+    }
+
+    .image-container {
+      max-width: 300px;
+      flex-shrink: 0;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="welcome-container">
+    <div class="organization-info">
+      <h1>Welcome to [organization-name]</h1>
+      
+      <p>Organizer: [Organizer Name]</p>
+      <p>Number of Residents: [Number]</p>
+      
+      <div class="options">
+        <button>Edit</button>
+        <button>Save</button>
+      </div>
+      <div class="view-donation">
+        <!-- Add the id attribute to the button -->
+        <button id="viewDonationBtn">View Donation</button>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="your-image-url.jpg" alt="Organization Image">
+    </div>
+  </div>
+  <script>
+    // JavaScript code to handle button click and navigate to another page
+    document.getElementById('viewDonationBtn').addEventListener('click', function() {
+      // Replace 'viewdonation.html' with the actual URL of the page you want to navigate to
+      window.location.href = 'viewdonation.html';
+    });
+  </script>
+
+</body>
+
+</html>
